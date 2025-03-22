@@ -115,7 +115,7 @@ def save_to_file(content, filename, format_type="txt"):
         with open(filename.replace(".txt", ".html"), "w", encoding="utf-8") as file:
             file.write(html_content)
     
-    print(f"\n✅ Blog saved as {filename}")
+    print(f"\n Blog saved as {filename}")
 
 # ========== MAIN EXECUTION ==========
 if __name__ == "__main__":
